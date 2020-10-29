@@ -1,0 +1,195 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    width: 960px;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+
+h2{
+ 
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+/*cabecera*/
+.cabecera{
+    width: 960px;
+    height: 525px;
+    
+}
+.cabecera img{
+    position: absolute;
+}
+.cabecera h1{
+    font-size: 64px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.cabecera h2{
+    font-size: 36px;
+    background-color: #7299FE;
+    color: white;
+    opacity: 0.5;
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 300px;
+}
+
+/*.caja{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    padding: 15px;;
+    background-color: rgba(42, 248, 255, 0.356);
+    border-radius: 10px;
+    top:300px;
+    left: 70px;
+   
+}
+*/
+
+
+/*sobre mi*/
+.about-me{
+    width: 960px;
+    
+    height: 400px;
+    background-color: #7299FE;
+}
+.about-me h2{
+    color: white;
+    
+}
+
+.about-me p{
+    font-size: 15px;
+    padding: 25px;
+    color: white;
+    text-justify: distribute;
+    line-height: 20px;
+}
+.about-me button{
+    margin: 0px 0px 0px 50px;
+
+    border: none;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    background-color: palevioletred;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 1px rgba(39, 41, 41, 0.137);
+}
+
+/*skills*/
+.skills{
+    width: 960px;
+    background-color: #9122FF;
+    height: 350px;
+    
+}
+
+.skills h2{
+color: lightgreen;
+padding-top: 25px ;
+margin-bottom: 30px;
+
+}
+.skills h3{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.skill{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.b_white{
+    background-color: white;
+    width: 360px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.b_blue{
+background-color: turquoise;
+width: 50%;
+height: 15px;
+border-radius: 5px;
+}
+
+
+/*portafolio*/
+.porfolio{
+    width: 960px;
+    height: 400px;
+    background-color: #FFD233;
+    color: teal;
+}
+
+.porfolio h2{
+    padding-top: 25px ;
+    margin-bottom: 30px;
+}
+
+.class1{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.class1 img{
+    padding-left:20px ;
+}
+.class2{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.class2 img{
+    padding-left:20px ;
+    
+}
+
+/*clientes*/
+
+.clientes{
+    width: 960px;
+    background-color: #3F4E62;
+    height: 250px;
+    color: white;
+}
+.imgc{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+   
+}
+.imgc img{
+    padding: 5px;
+}
